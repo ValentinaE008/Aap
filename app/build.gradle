@@ -1,0 +1,56 @@
+plugins {
+    id("com.android.application")
+
+
+}
+
+android {
+    compileSdk = 36
+    buildToolsVersion = "29.0.3"
+    namespace = "com.example.aap"
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        minSdk = 23
+        targetSdk = 36
+        versionCode = 1
+        versionName = "1.0"
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            proguardFiles(
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
+            )
+        }
+    }
+}
+
+dependencies {
+    implementation(libs.material)
+    implementation(libs.kotlin.stdlib)
+    implementation(libs.androidx.core.ktx.v132)
+    implementation(libs.androidx.appcompat.v120)
+    implementation(libs.androidx.constraintlayout.v204)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.activity.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+
+    implementation(libs.material.v121)
+    testImplementation(libs.junit.v413)
+    androidTestImplementation(libs.androidx.junit.v112)
+    androidTestImplementation(libs.androidx.espresso.core.v330)
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aap</string>
+    <string name="chooser_share_post">Поделиться постом</string>
+    <string name="description_post_clear">очистить</string>
+    <string name="description_background_video">описание видео</string>
+    <string name="menu_edit">Изменить</string>
+    <string name="menu_remove">Удалить</string>
+    <string name="description_post_author_avatar">Аватар автора поста</string>
+    <string name="description_post_menu">Меню поста</string>
+    <string name="description_post_like">Нравится</string>
+    <string name="description_post_share">Поделиться</string>
+    <string name="description_post_save">Сохранить</string>
+    <string name="Post_Text">Текст поста</string>
+    <string name="fab">кнопка</string>
+    <string name="error_empty_content">Контент не может быть пустым</string>
+    <string name="description_play">видео</string>
+</resources>

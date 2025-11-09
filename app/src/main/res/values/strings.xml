@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NMedia</string>
+    <string name="description_post_author_avatar">Post author avatar</string>
+    <string name="description_post_menu">Post menu</string>
+    <string name="description_post_like">Like</string>
+    <string name="description_post_share">Share</string>
+    <string name="description_post_save">Save</string>
+    <string name="menu_remove">Remove</string>
+    <string name="Post_Text">Post Text</string>
+    <string name="description_play" />
+    <string name="description_background_video" />
+    <string name="menu_edit">Edit</string>
+    <string name="chooser_share_post">Share post</string>
+    <string name="description_post_clear">Clear</string>
+    <string name="fab">floatingActionButton</string>
+    <string name="error_empty_content">Content can\'t be empty</string>
+</resources>
